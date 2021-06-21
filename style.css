@@ -1,9 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     margin:0;
     padding:0;
@@ -55,9 +53,6 @@ body{
     top: 0;
     left: 0;
 }
-.navbar{
-    background-color: #48ebebea;
-}
 
 .parbg{
     position: absolute;
@@ -70,13 +65,6 @@ body{
 }
 .cen{
     margin-right: 100px;
-}
-.noida-background{
-    background-image: url(img/noida.jpeg);
-    border-radius: 20px;
-    background-size: cover;
-    height: 400px;
-    padding:auto;
 }
 
 .mob{
@@ -115,5 +103,9 @@ body{
 
     .mob {
         margin-top: 3rem;
+    }
+    ul{
+        text-align: center;
+        font-size: 20px;
     }
 }
