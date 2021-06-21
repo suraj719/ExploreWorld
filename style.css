@@ -1,0 +1,119 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    background-color: black;
+    color: #8FD6E1;
+}
+
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-size:53px;
+    font-weight: 600;
+
+}
+
+.img-travel{
+    height: 380px;
+    border-radius:20px;
+}
+.avatar{
+    height: 100px;
+    border-radius: 12px;
+}
+
+.background{
+    background-image: url(img/bgboot.jpg);
+    border-radius: 25px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+#particle-js canvas{
+    display:block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    background-color: #48ebebea;
+}
+
+.parbg{
+    position: absolute;
+}
+
+.places{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
+.cen{
+    margin-right: 100px;
+}
+.noida-background{
+    background-image: url(img/noida.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    height: 400px;
+    padding:auto;
+}
+
+.mob{
+    margin-top: 8rem;
+}
+.card {
+    background-color: rgba(195, 197, 193, 0.616);
+    color: #eed091;
+}
+
+.card-title {
+    color: #48ff00;
+}
+
+.time {
+    color: #FFE3D8;
+}
+
+.btn-outline-info{
+    color:white;
+}
+.background {
+    color: #3d4fee;
+}
+
+@media screen and (max-width: 600px) {
+    .mail {
+        margin-top: 10px;
+    }
+
+    .background {
+        background-image: url(img/smbg.jpeg);
+        color: #1900ff;
+        height: 300px;
+    }
+
+    .mob {
+        margin-top: 3rem;
+    }
+}
